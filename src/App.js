@@ -7,7 +7,7 @@ import dmsToDecimal from './utils/dmsToDecimal';
 
 import styles from './App.module.scss';
 
-const QUIZ_SIZE = 5;
+const QUIZ_SIZE = 50;
 
 function App() {
   const [questions, setQuestions] = useState([]);
