@@ -59,7 +59,7 @@ function App() {
   };
 
   const handleInputChange = (value) => {
-    if (/[A-Z]{0,4}/.test(value)) {
+    if (/^[A-Z]{0,4}$/.test(value)) {
       setIcao(value);
 
       if (value.length === 4) {

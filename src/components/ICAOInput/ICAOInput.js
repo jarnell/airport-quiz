@@ -20,6 +20,8 @@ const ICAOInput = ({ value, onChange, disabled }) => {
         value={value}
         ref={input}
         disabled={disabled}
+        autoComplete="off"
+        autoCorrect="off"
       />
 
       <div className={styles.borderContainer}>
