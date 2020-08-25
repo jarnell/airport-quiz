@@ -1,0 +1,46 @@
+.container {
+  width: 30px;
+  height: 30px;
+  margin: 0 0 16px 10px;
+}
+
+.checkmark {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 0;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  margin: 0;
+  box-shadow: inset 0px 0px 0px #7ac142;
+  animation: fill 0.4s ease-in-out 0s forwards, scale 0.3s ease-in-out 0.5s both;
+}
+
+.check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  stroke-width: 4;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.4s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 20px #7ac142, 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+}

@@ -1,0 +1,972 @@
+{
+  "ESGI": {
+    "icao": "ESGI",
+    "name": "ALINGSÅS",
+    "coordinates": "575659N 0123441E"
+  },
+  "ESMP": {
+    "icao": "ESMP",
+    "name": "ANDERSTORP",
+    "coordinates": "571554N 0133606E"
+  },
+  "ESQO": {
+    "icao": "ESQO",
+    "name": "ARBOGA",
+    "coordinates": "592318N 0155515E"
+  },
+  "ESUB": {
+    "icao": "ESUB",
+    "name": "ARBRÅ",
+    "coordinates": "613045N 0162221E"
+  },
+  "ESNX": {
+    "icao": "ESNX",
+    "name": "ARVIDSJAUR",
+    "coordinates": "653525N 0191655E",
+    "type": "M"
+  },
+  "ESKV": {
+    "icao": "ESKV",
+    "name": "ARVIKA",
+    "coordinates": "594030N 0123822E"
+  },
+  "ESVA": {
+    "icao": "ESVA",
+    "name": "AVESTA",
+    "coordinates": "601049N 0160722E"
+  },
+  "ESJB": {
+    "icao": "ESJB",
+    "name": "BOLLNÄS/Sjukhuset",
+    "coordinates": "612110N 0162140E",
+    "type": "H"
+  },
+  "ESMB": {
+    "icao": "ESMB",
+    "name": "BORGLANDA",
+    "coordinates": "565147N 0163922E"
+  },
+  "ESSD": {
+    "icao": "ESSD",
+    "name": "BORLÄNGE",
+    "coordinates": "602520N 0153054E",
+    "type": "M"
+  },
+  "ESGE": {
+    "icao": "ESGE",
+    "name": "BORÅS",
+    "coordinates": "574145N 0125042E"
+  },
+  "ESEB": {
+    "icao": "ESEB",
+    "name": "BORÅS/Borås sjukhus",
+    "coordinates": "574327N 0125751E",
+    "type": "H"
+  },
+  "ESSM": {
+    "icao": "ESSM",
+    "name": "BRATTFORSHEDEN",
+    "coordinates": "593630N 0135444E"
+  },
+  "ESVB": {
+    "icao": "ESVB",
+    "name": "BUNGE",
+    "coordinates": "575100N 0190218E"
+  },
+  "ESKD": {
+    "icao": "ESKD",
+    "name": "DALA-JÄRNA",
+    "coordinates": "603322N 0142238E"
+  },
+  "ESUY": {
+    "icao": "ESUY",
+    "name": "EDSBYN",
+    "coordinates": "612313N 0155000E"
+  },
+  "ESKH": {
+    "icao": "ESKH",
+    "name": "EKSHÄRAD",
+    "coordinates": "600917N 0133143E"
+  },
+  "ESMC": {
+    "icao": "ESMC",
+    "name": "EKSJÖ/Ränneslätt",
+    "coordinates": "574012N 0145631E"
+  },
+  "ESVL": {
+    "icao": "ESVL",
+    "name": "ENKÖPING/Långtora",
+    "coordinates": "594450N 0170842E"
+  },
+  "ESSU": {
+    "icao": "ESSU",
+    "name": "ESKILSTUNA",
+    "coordinates": "592108N 0164230E",
+    "type": "M"
+  },
+  "ESSC": {
+    "icao": "ESSC",
+    "name": "ESKILSTUNA/Ekeby",
+    "coordinates": "592302N 0162631E"
+  },
+  "ESME": {
+    "icao": "ESME",
+    "name": "ESLÖV",
+    "coordinates": "555054N 0131952E"
+  },
+  "ESMF": {
+    "icao": "ESMF",
+    "name": "FAGERHULT",
+    "coordinates": "562316N 0132814E"
+  },
+  "ESGF": {
+    "icao": "ESGF",
+    "name": "FALKENBERG/Morup",
+    "coordinates": "565817N 0122321E"
+  },
+  "ESGK": {
+    "icao": "ESGK",
+    "name": "FALKÖPING",
+    "coordinates": "581012N 0133516E"
+  },
+  "ESEF": {
+    "icao": "ESEF",
+    "name": "FALUN/Falu lasarett",
+    "coordinates": "603627N 0153843E",
+    "type": "H"
+  },
+  "ESTF": {
+    "icao": "ESTF",
+    "name": "FJÄLLBACKA",
+    "coordinates": "583749N 0111813E"
+  },
+  "ESVG": {
+    "icao": "ESVG",
+    "name": "GAGNEF",
+    "coordinates": "603303N 0150441E"
+  },
+  "ESUG": {
+    "icao": "ESUG",
+    "name": "GARGNÄS",
+    "coordinates": "651819N 0175832E"
+  },
+  "ESSZ": {
+    "icao": "ESSZ",
+    "name": "GNESTA/Vängsö",
+    "coordinates": "590604N 0171240E"
+  },
+  "ESKG": {
+    "icao": "ESKG",
+    "name": "GRYTTJOM",
+    "coordinates": "601710N 0172546E"
+  },
+  "ESNG": {
+    "icao": "ESNG",
+    "name": "GÄLLIVARE",
+    "coordinates": "670759N 0204844E",
+    "type": "M"
+  },
+  "ESEG": {
+    "icao": "ESEG",
+    "name": "GÄLLIVARE/Vassara",
+    "coordinates": "670812N 0203755E",
+    "type": "H"
+  },
+  "ESSK": {
+    "icao": "ESSK",
+    "name": "GÄVLE",
+    "coordinates": "603536N 0165705E"
+  },
+  "ESJA": {
+    "icao": "ESJA",
+    "name": "GÄVLE/Sjukhuset",
+    "coordinates": "604053N 0170705E",
+    "type": "H"
+  },
+  "ESGG": {
+    "icao": "ESGG",
+    "name": "GÖTEBORG/Landvetter",
+    "coordinates": "573936N 0121728E",
+    "type": "M"
+  },
+  "ESHS": {
+    "icao": "ESHS",
+    "name": "GÖTEBORG/Sahlgrenska sjukhuset",
+    "coordinates": "574100N 0115723E",
+    "type": "H"
+  },
+  "ESGP": {
+    "icao": "ESGP",
+    "name": "GÖTEBORG/Säve",
+    "coordinates": "574632N 0115214E",
+    "type": "M"
+  },
+  "ESHB": {
+    "icao": "ESHB",
+    "name": "GÖTEBORG/Östra sjukhuset",
+    "coordinates": "574316N 0120252E",
+    "type": "H"
+  },
+  "ESGN": {
+    "icao": "ESGN",
+    "name": "GÖTENE/Brännebrona",
+    "coordinates": "583443N 0133638E"
+  },
+  "ESOH": {
+    "icao": "ESOH",
+    "name": "HAGFORS",
+    "coordinates": "600116N 0133444E",
+    "type": "M"
+  },
+  "ESMV": {
+    "icao": "ESMV",
+    "name": "HAGSHULT",
+    "coordinates": "571732N 0140814E"
+  },
+  "ESNA": {
+    "icao": "ESNA",
+    "name": "HALLVIKEN",
+    "coordinates": "634418N 0152732E"
+  },
+  "ESMT": {
+    "icao": "ESMT",
+    "name": "HALMSTAD",
+    "coordinates": "564127N 0124912E",
+    "type": "M"
+  },
+  "ESNC": {
+    "icao": "ESNC",
+    "name": "HEDE/Hedlanda",
+    "coordinates": "622432N 0134450E"
+  },
+  "ESUT": {
+    "icao": "ESUT",
+    "name": "HEMAVAN TÄRNABY",
+    "coordinates": "654822N 0150458E",
+    "type": "M"
+  },
+  "ESGH": {
+    "icao": "ESGH",
+    "name": "HERRLJUNGA",
+    "coordinates": "580146N 0130629E"
+  },
+  "ESNH": {
+    "icao": "ESNH",
+    "name": "HUDIKSVALL",
+    "coordinates": "614606N 0170450E"
+  },
+  "ESHX": {
+    "icao": "ESHX",
+    "name": "HUDIKSVALL/Sjukhuset",
+    "coordinates": "614350N 0170600E",
+    "type": "H"
+  },
+  "ESSF": {
+    "icao": "ESSF",
+    "name": "HULTSFRED-VIMMERBY",
+    "coordinates": "573133N 0154924E"
+  },
+  "ESVH": {
+    "icao": "ESVH",
+    "name": "HÄLLEFORS",
+    "coordinates": "595203N 0142525E"
+  },
+  "ESUH": {
+    "icao": "ESUH",
+    "name": "HÄRNÖSAND/Myran",
+    "coordinates": "623801N 0175853E"
+  },
+  "ESFA": {
+    "icao": "ESFA",
+    "name": "HÄSSLEHOLM/Bokeberg",
+    "coordinates": "560801N 0135244E"
+  },
+  "ESMH": {
+    "icao": "ESMH",
+    "name": "HÖGANÄS",
+    "coordinates": "561105N 0123433E"
+  },
+  "ESUE": { "icao": "ESUE", "name": "IDRE", "coordinates": "615211N 0124122E" },
+  "ESNJ": {
+    "icao": "ESNJ",
+    "name": "JOKKMOKK",
+    "coordinates": "662948N 0200851E"
+  },
+  "ESGJ": {
+    "icao": "ESGJ",
+    "name": "JÖNKÖPING",
+    "coordinates": "574530N 0140409E",
+    "type": "M"
+  },
+  "ESHJ": {
+    "icao": "ESHJ",
+    "name": "JÖNKÖPING/Ryhov sjukhus",
+    "coordinates": "574553N 0141140E",
+    "type": "H"
+  },
+  "ESMQ": {
+    "icao": "ESMQ",
+    "name": "KALMAR",
+    "coordinates": "564108N 0161715E",
+    "type": "M"
+  },
+  "ESIA": {
+    "icao": "ESIA",
+    "name": "KARLSBORG",
+    "coordinates": "583049N 0143026E",
+    "type": "M"
+  },
+  "ESKK": {
+    "icao": "ESKK",
+    "name": "KARLSKOGA",
+    "coordinates": "592040N 0142941E"
+  },
+  "ESHN": {
+    "icao": "ESHN",
+    "name": "KARLSKRONA/Blekingesjukhuset",
+    "coordinates": "561100N 0153632E",
+    "type": "H"
+  },
+  "ESOK": {
+    "icao": "ESOK",
+    "name": "KARLSTAD",
+    "coordinates": "592641N 0132015E",
+    "type": "M"
+  },
+  "ESHV": {
+    "icao": "ESHV",
+    "name": "KARLSTAD/Centralsjukhuset",
+    "coordinates": "592234N 0132834E",
+    "type": "H"
+  },
+  "ESVK": {
+    "icao": "ESVK",
+    "name": "KATRINEHOLM",
+    "coordinates": "590120N 0161313E"
+  },
+  "ESNQ": {
+    "icao": "ESNQ",
+    "name": "KIRUNA",
+    "coordinates": "674917N 0202008E",
+    "type": "M"
+  },
+  "ESEQ": {
+    "icao": "ESEQ",
+    "name": "KIRUNA/Kiruna sjukhus",
+    "coordinates": "675101N 0201412E",
+    "type": "H"
+  },
+  "ESEK": {
+    "icao": "ESEK",
+    "name": "KIRUNA/Luossajärvi",
+    "coordinates": "675136N 0201225E",
+    "type": "H"
+  },
+  "ESNK": {
+    "icao": "ESNK",
+    "name": "KRAMFORS-SOLLEFTEÅ",
+    "coordinates": "630255N 0174608E",
+    "type": "M"
+  },
+  "ESEX": {
+    "icao": "ESEX",
+    "name": "Kriegers Flak A",
+    "coordinates": "550128N 0125103E",
+    "type": "H"
+  },
+  "ESEZ": {
+    "icao": "ESEZ",
+    "name": "Kriegers Flak B",
+    "coordinates": "550255N 0125642E",
+    "type": "H"
+  },
+  "ESMK": {
+    "icao": "ESMK",
+    "name": "KRISTIANSTAD",
+    "coordinates": "555514N 0140507E",
+    "type": "M"
+  },
+  "ESHI": {
+    "icao": "ESHI",
+    "name": "KRISTIANSTAD/Centralsjukhuset",
+    "coordinates": "560145N 0141018E",
+    "type": "H"
+  },
+  "ESHM": {
+    "icao": "ESHM",
+    "name": "KUNGÄLV/Kungälvs sjukhus",
+    "coordinates": "575238N 0115805E",
+    "type": "H"
+  },
+  "ESMJ": {
+    "icao": "ESMJ",
+    "name": "KÅGERÖD",
+    "coordinates": "555942N 0130312E"
+  },
+  "ESVQ": {
+    "icao": "ESVQ",
+    "name": "KÖPING",
+    "coordinates": "593139N 0155811E"
+  },
+  "ESML": {
+    "icao": "ESML",
+    "name": "LANDSKRONA",
+    "coordinates": "555640N 0125210E"
+  },
+  "ESGL": {
+    "icao": "ESGL",
+    "name": "LIDKÖPING",
+    "coordinates": "582755N 0131028E"
+  },
+  "ESCF": {
+    "icao": "ESCF",
+    "name": "LINKÖPING/Malmen",
+    "coordinates": "582346N 0153119E",
+    "type": "M"
+  },
+  "ESSL": {
+    "icao": "ESSL",
+    "name": "LINKÖPING/Saab",
+    "coordinates": "582423N 0154047E",
+    "type": "M"
+  },
+  "ESJL": {
+    "icao": "ESJL",
+    "name": "LINKÖPING/US Linköping helikopterflygplats",
+    "coordinates": "582406N 0153710E",
+    "type": "H"
+  },
+  "ESMG": {
+    "icao": "ESMG",
+    "name": "LJUNGBY/Feringe",
+    "coordinates": "565701N 0135518E"
+  },
+  "ESTL": {
+    "icao": "ESTL",
+    "name": "LJUNGBYHED",
+    "coordinates": "560507N 0131225E",
+    "type": "M"
+  },
+  "ESUL": {
+    "icao": "ESUL",
+    "name": "LJUSDAL",
+    "coordinates": "614901N 0160015E"
+  },
+  "ESSG": {
+    "icao": "ESSG",
+    "name": "LUDVIKA",
+    "coordinates": "600518N 0150547E"
+  },
+  "ESPA": {
+    "icao": "ESPA",
+    "name": "LULEÅ/Kallax",
+    "coordinates": "653236N 0220725E",
+    "type": "M"
+  },
+  "ESES": {
+    "icao": "ESES",
+    "name": "LULEÅ/Sunderby sjukhuset",
+    "coordinates": "654010N 0215607E",
+    "type": "H"
+  },
+  "ESEM": {
+    "icao": "ESEM",
+    "name": "LUND/Universitetssjukhuset",
+    "coordinates": "554242N 0131156E",
+    "type": "H"
+  },
+  "ESNL": {
+    "icao": "ESNL",
+    "name": "LYCKSELE",
+    "coordinates": "643251N 0184304E",
+    "type": "M"
+  },
+  "ESEY": {
+    "icao": "ESEY",
+    "name": "LYCKSELE/Sjukhuset",
+    "coordinates": "643507N 0184051E",
+    "type": "H"
+  },
+  "ESMS": {
+    "icao": "ESMS",
+    "name": "MALMÖ",
+    "coordinates": "553254N 0132112E",
+    "type": "M"
+  },
+  "ESVM": {
+    "icao": "ESVM",
+    "name": "MALUNG/Skinnlanda",
+    "coordinates": "603932N 0134336E"
+  },
+  "ESUI": {
+    "icao": "ESUI",
+    "name": "MELLANSEL",
+    "coordinates": "632331N 0181914E"
+  },
+  "ESUM": {
+    "icao": "ESUM",
+    "name": "MOHED",
+    "coordinates": "611728N 0165047E"
+  },
+  "ESJM": {
+    "icao": "ESJM",
+    "name": "MORA/Mora lasarett",
+    "coordinates": "610102N 0143503E",
+    "type": "H"
+  },
+  "ESKM": {
+    "icao": "ESKM",
+    "name": "MORA/Siljan",
+    "coordinates": "605731N 0143038E",
+    "type": "M"
+  },
+  "ESKO": {
+    "icao": "ESKO",
+    "name": "MUNKFORS",
+    "coordinates": "594756N 0132926E"
+  },
+  "ESSP": {
+    "icao": "ESSP",
+    "name": "NORRKÖPING/Kungsängen",
+    "coordinates": "583510N 0161447E",
+    "type": "M"
+  },
+  "ESSN": {
+    "icao": "ESSN",
+    "name": "NORRTÄLJE",
+    "coordinates": "594358N 0184147E"
+  },
+  "ESHY": {
+    "icao": "ESHY",
+    "name": "NORRTÄLJE/Sjukhuset",
+    "coordinates": "594528N 0184121E",
+    "type": "H"
+  },
+  "ESNM": {
+    "icao": "ESNM",
+    "name": "OPTAND",
+    "coordinates": "630731N 0144830E"
+  },
+  "ESNR": { "icao": "ESNR", "name": "ORSA", "coordinates": "611132N 0144309E" },
+  "ESMO": {
+    "icao": "ESMO",
+    "name": "OSKARSHAMN",
+    "coordinates": "572107N 0162954E"
+  },
+  "ESUO": {
+    "icao": "ESUO",
+    "name": "OVIKEN",
+    "coordinates": "630230N 0140005E"
+  },
+  "ESUP": {
+    "icao": "ESUP",
+    "name": "PAJALA",
+    "coordinates": "671445N 0230408E",
+    "type": "M"
+  },
+  "ESNP": {
+    "icao": "ESNP",
+    "name": "PITEÅ",
+    "coordinates": "652354N 0211539E"
+  },
+  "ESUR": {
+    "icao": "ESUR",
+    "name": "RAMSELE",
+    "coordinates": "632925N 0162901E"
+  },
+  "ESDF": {
+    "icao": "ESDF",
+    "name": "RONNEBY",
+    "coordinates": "561600N 0151554E",
+    "type": "M"
+  },
+  "ESFR": { "icao": "ESFR", "name": "RÅDA", "coordinates": "582953N 0130311E" },
+  "ESFS": {
+    "icao": "ESFS",
+    "name": "SANDVIK",
+    "coordinates": "570406N 0165151E"
+  },
+  "ESVS": {
+    "icao": "ESVS",
+    "name": "SILJANSNÄS",
+    "coordinates": "604706N 0144938E"
+  },
+  "ESMI": {
+    "icao": "ESMI",
+    "name": "SJÖBO SÖVDE",
+    "coordinates": "553554N 0134038E"
+  },
+  "ESNS": {
+    "icao": "ESNS",
+    "name": "SKELLEFTEÅ",
+    "coordinates": "643729N 0210437E",
+    "type": "M"
+  },
+  "ESGR": {
+    "icao": "ESGR",
+    "name": "SKÖVDE",
+    "coordinates": "582722N 0135822E",
+    "type": "M"
+  },
+  "ESHO": {
+    "icao": "ESHO",
+    "name": "SKÖVDE/Kärnsjukhuset",
+    "coordinates": "582531N 0135053E",
+    "type": "H"
+  },
+  "ESMY": {
+    "icao": "ESMY",
+    "name": "SMÅLANDSSTENAR",
+    "coordinates": "571007N 0132624E"
+  },
+  "ESNB": {
+    "icao": "ESNB",
+    "name": "SOLLEFTEÅ",
+    "coordinates": "631016N 0165908E"
+  },
+  "ESVE": {
+    "icao": "ESVE",
+    "name": "STEGEBORG",
+    "coordinates": "582600N 0163618E"
+  },
+  "ESSA": {
+    "icao": "ESSA",
+    "name": "STOCKHOLM/Arlanda",
+    "coordinates": "593907N 0175507E",
+    "type": "M"
+  },
+  "ESSB": {
+    "icao": "ESSB",
+    "name": "STOCKHOLM/Bromma",
+    "coordinates": "592116N 0175632E",
+    "type": "M"
+  },
+  "ESHD": {
+    "icao": "ESHD",
+    "name": "STOCKHOLM/Danderyds sjukhus",
+    "coordinates": "592329N 0180148E",
+    "type": "H"
+  },
+  "ESHG": {
+    "icao": "ESHG",
+    "name": "STOCKHOLM/Gamla Stan",
+    "coordinates": "591922N 0180358E",
+    "type": "H"
+  },
+  "ESHL": {
+    "icao": "ESHL",
+    "name": "STOCKHOLM/Huddinge sjukhus",
+    "coordinates": "591311N 0175603E",
+    "type": "H"
+  },
+  "ESHK": {
+    "icao": "ESHK",
+    "name": "STOCKHOLM/Karolinska Universitetssjukhuset Solna",
+    "coordinates": "592057N 0180155E",
+    "type": "H"
+  },
+  "ESKN": {
+    "icao": "ESKN",
+    "name": "STOCKHOLM/Skavsta",
+    "coordinates": "584719N 0165413E",
+    "type": "M"
+  },
+  "ESSE": {
+    "icao": "ESSE",
+    "name": "STOCKHOLM/Skå-Edeby",
+    "coordinates": "592042N 0174426E"
+  },
+  "ESHC": {
+    "icao": "ESHC",
+    "name": "STOCKHOLM/Södersjukhuset",
+    "coordinates": "591830N 0180317E",
+    "type": "H"
+  },
+  "ESOW": {
+    "icao": "ESOW",
+    "name": "STOCKHOLM/Västerås",
+    "coordinates": "593522N 0163801E",
+    "type": "M"
+  },
+  "ESUD": {
+    "icao": "ESUD",
+    "name": "STORUMAN",
+    "coordinates": "645739N 0174148E"
+  },
+  "ESOL": {
+    "icao": "ESOL",
+    "name": "STORVIK/Lemstanäs",
+    "coordinates": "603516N 0163512E"
+  },
+  "ESGS": {
+    "icao": "ESGS",
+    "name": "STRÖMSTAD/Näsinge",
+    "coordinates": "590101N 0112037E"
+  },
+  "ESKC": {
+    "icao": "ESKC",
+    "name": "SUNDBRO",
+    "coordinates": "595522N 0173212E"
+  },
+  "ESED": {
+    "icao": "ESED",
+    "name": "SUNDSVALL/Länssjukhuset",
+    "coordinates": "622429N 0171808E",
+    "type": "H"
+  },
+  "ESNN": {
+    "icao": "ESNN",
+    "name": "SUNDSVALL-TIMRÅ",
+    "coordinates": "623146N 0172634E",
+    "type": "M"
+  },
+  "ESKU": {
+    "icao": "ESKU",
+    "name": "SUNNE",
+    "coordinates": "595137N 0130646E"
+  },
+  "ESND": {
+    "icao": "ESND",
+    "name": "SVEG",
+    "coordinates": "620252N 0142527E",
+    "type": "M"
+  },
+  "ESIB": {
+    "icao": "ESIB",
+    "name": "SÅTENÄS",
+    "coordinates": "582542N 0124240E",
+    "type": "M"
+  },
+  "ESGY": {
+    "icao": "ESGY",
+    "name": "SÄFFLE",
+    "coordinates": "590528N 0125730E"
+  },
+  "ESKS": {
+    "icao": "ESKS",
+    "name": "SÄLEN/Scandinavian Mountains",
+    "coordinates": "610953N 0125002E",
+    "type": "M"
+  },
+  "ESNY": {
+    "icao": "ESNY",
+    "name": "SÖDERHAMN",
+    "coordinates": "611541N 0170554E"
+  },
+  "ESGD": {
+    "icao": "ESGD",
+    "name": "TIDAHOLM/Bämmelshed",
+    "coordinates": "581131N 0135944E"
+  },
+  "ESKT": {
+    "icao": "ESKT",
+    "name": "TIERP",
+    "coordinates": "602042N 0172519E"
+  },
+  "ESST": {
+    "icao": "ESST",
+    "name": "TORSBY",
+    "coordinates": "600917N 0125937E",
+    "type": "M"
+  },
+  "ESET": {
+    "icao": "ESET",
+    "name": "TORSBY/Torsby sjukhus",
+    "coordinates": "600812N 0125951E",
+    "type": "H"
+  },
+  "ESEN": {
+    "icao": "ESEN",
+    "name": "TROLLHÄTTAN/NÄL sjukhus",
+    "coordinates": "581909N 0121605E",
+    "type": "H"
+  },
+  "ESGT": {
+    "icao": "ESGT",
+    "name": "TROLLHÄTTAN-VÄNERSBORG",
+    "coordinates": "581905N 0122042E",
+    "type": "M"
+  },
+  "ESGA": {
+    "icao": "ESGA",
+    "name": "UDDEVALLA/Backamo",
+    "coordinates": "581038N 0115825E"
+  },
+  "ESGU": {
+    "icao": "ESGU",
+    "name": "UDDEVALLA/Rörkärr",
+    "coordinates": "582204N 0114631E"
+  },
+  "ESEU": {
+    "icao": "ESEU",
+    "name": "UDDEVALLA/Sjukhuset",
+    "coordinates": "582126N 0115543E",
+    "type": "H"
+  },
+  "ESNU": {
+    "icao": "ESNU",
+    "name": "UMEÅ",
+    "coordinates": "634735N 0201648E",
+    "type": "M"
+  },
+  "ESHZ": {
+    "icao": "ESHZ",
+    "name": "UMEÅ/Universitetssjukhuset",
+    "coordinates": "634902N 0201754E",
+    "type": "H"
+  },
+  "ESCM": {
+    "icao": "ESCM",
+    "name": "UPPSALA",
+    "coordinates": "595401N 0173533E",
+    "type": "M"
+  },
+  "ESHU": {
+    "icao": "ESHU",
+    "name": "UPPSALA/Akademiska sjukhuset",
+    "coordinates": "595050N 0173825E",
+    "type": "H"
+  },
+  "ESGV": {
+    "icao": "ESGV",
+    "name": "VARBERG",
+    "coordinates": "570729N 0121341E"
+  },
+  "ESTT": {
+    "icao": "ESTT",
+    "name": "VELLINGE",
+    "coordinates": "552346N 0130131E"
+  },
+  "ESPE": {
+    "icao": "ESPE",
+    "name": "VIDSEL",
+    "coordinates": "655231N 0200900E",
+    "type": "M"
+  },
+  "ESNV": {
+    "icao": "ESNV",
+    "name": "VILHELMINA",
+    "coordinates": "643443N 0165023E",
+    "type": "M"
+  },
+  "ESSV": {
+    "icao": "ESSV",
+    "name": "VISBY",
+    "coordinates": "573946N 0182046E",
+    "type": "M"
+  },
+  "ESEV": {
+    "icao": "ESEV",
+    "name": "VISBY/Sjukhuset",
+    "coordinates": "573900N 0181803E",
+    "type": "H"
+  },
+  "ESSI": {
+    "icao": "ESSI",
+    "name": "VISINGSÖ",
+    "coordinates": "580555N 0142409E"
+  },
+  "ESGO": {
+    "icao": "ESGO",
+    "name": "VÅRGÅRDA",
+    "coordinates": "580221N 0124709E"
+  },
+  "ESSW": {
+    "icao": "ESSW",
+    "name": "VÄSTERVIK",
+    "coordinates": "574648N 0163125E"
+  },
+  "ESSX": {
+    "icao": "ESSX",
+    "name": "VÄSTERÅS/Johannisberg",
+    "coordinates": "593433N 0163011E"
+  },
+  "ESEW": {
+    "icao": "ESEW",
+    "name": "VÄSTERÅS/Västmanlands sjukhus",
+    "coordinates": "593657N 0163455E",
+    "type": "H"
+  },
+  "ESMX": {
+    "icao": "ESMX",
+    "name": "VÄXJÖ/Kronoberg",
+    "coordinates": "565549N 0144344E",
+    "type": "M"
+  },
+  "ESHR": {
+    "icao": "ESHR",
+    "name": "ÅKERSBERGA",
+    "coordinates": "592908N 0181618E",
+    "type": "H"
+  },
+  "ESGC": {
+    "icao": "ESGC",
+    "name": "ÅLLEBERG",
+    "coordinates": "580805N 0133609E"
+  },
+  "ESUJ": {
+    "icao": "ESUJ",
+    "name": "ÅNGE/Tälje",
+    "coordinates": "623355N 0155005E"
+  },
+  "ESNZ": {
+    "icao": "ESNZ",
+    "name": "ÅRE ÖSTERSUND",
+    "coordinates": "631140N 0143001E",
+    "type": "M"
+  },
+  "ESUS": {
+    "icao": "ESUS",
+    "name": "ÅSELE",
+    "coordinates": "640933N 0171628E"
+  },
+  "ESNF": {
+    "icao": "ESNF",
+    "name": "ÅVIKEN/Åviken Fly Camp",
+    "coordinates": "631246N 0184457E"
+  },
+  "ESMU": {
+    "icao": "ESMU",
+    "name": "ÄLMHULT/Möckeln",
+    "coordinates": "563414N 0140959E"
+  },
+  "ESUV": {
+    "icao": "ESUV",
+    "name": "ÄLVSBYN",
+    "coordinates": "653845N 0210341E"
+  },
+  "ESTA": {
+    "icao": "ESTA",
+    "name": "ÄNGELHOLM",
+    "coordinates": "561728N 0125118E",
+    "type": "M"
+  },
+  "ESMZ": {
+    "icao": "ESMZ",
+    "name": "ÖLANDA",
+    "coordinates": "571943N 0170301E"
+  },
+  "ESOE": {
+    "icao": "ESOE",
+    "name": "ÖREBRO",
+    "coordinates": "591341N 0150224E",
+    "type": "M"
+  },
+  "ESHQ": {
+    "icao": "ESHQ",
+    "name": "ÖREBRO/Universitetssjukhuset",
+    "coordinates": "591629N 0151344E",
+    "type": "H"
+  },
+  "ESGM": {
+    "icao": "ESGM",
+    "name": "ÖRESTEN",
+    "coordinates": "572643N 0123856E"
+  },
+  "ESNO": {
+    "icao": "ESNO",
+    "name": "ÖRNSKÖLDSVIK",
+    "coordinates": "632428N 0185933E",
+    "type": "M"
+  }
+}
