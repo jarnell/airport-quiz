@@ -7,14 +7,14 @@ import dmsToDecimal from './utils/dmsToDecimal';
 
 import styles from './App.module.scss';
 
-const QUIZ_SIZE = 50;
+const QUIZ_SIZE = 5;
 
 function App() {
   const [questions, setQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [icao, setIcao] = useState('');
   const [feedback, setFeedback] = useState(null);
-  const [errors, setErrors] = useState(0);
+  const [errors, setErrors] = useState([]);
 
   const startQuiz = (categories) => {
     // Create a pool of airports from the categories user has selected
@@ -40,7 +40,22 @@ function App() {
     setCurrent(0);
     setIcao('');
     setFeedback(null);
-    setErrors(0);
+    setErrors([]);
+  };
+
+  const repeatErrors = () => {
+    setQuestions(
+      sampleSize(
+        errors.reduce((acc, cur) => {
+          return [...acc, airports[cur]];
+        }, []),
+        errors.length
+      )
+    );
+    setCurrent(0);
+    setIcao('');
+    setFeedback(null);
+    setErrors([]);
   };
 
   const handleInputChange = (value) => {
@@ -60,7 +75,7 @@ function App() {
       setTimeout(goNext, 1200);
     } else {
       setFeedback(2);
-      setErrors(errors + 1);
+      setErrors([...errors, questions[current].icao]);
       setTimeout(goNext, 3000);
     }
   };
@@ -119,7 +134,8 @@ function App() {
       {questions.length > 0 && current >= questions.length && (
         <Result
           questions={questions.length}
-          errors={errors}
+          errors={errors.length}
+          onRepeatErrorsClick={repeatErrors}
           onPlayAgainClick={resetQuiz}
         />
       )}
@@ -127,7 +143,12 @@ function App() {
   );
 }
 
-const Result = ({ questions, errors, onPlayAgainClick }) => (
+const Result = ({
+  questions,
+  errors,
+  onPlayAgainClick,
+  onRepeatErrorsClick,
+}) => (
   <div className={styles.resultContainer}>
     <h2 className={styles.city}>
       Slut!{' '}
@@ -143,6 +164,15 @@ const Result = ({ questions, errors, onPlayAgainClick }) => (
         ({questions - errors} av {questions} rätt)
       </small>
     </h3>
+
+    {errors > 0 && (
+      <button className={styles.restart} onClick={onRepeatErrorsClick}>
+        Repetera felen?{' '}
+        <span role="img" aria-label="Restart">
+          🤓
+        </span>
+      </button>
+    )}
 
     <button className={styles.restart} onClick={onPlayAgainClick}>
       Spela igen?{' '}
