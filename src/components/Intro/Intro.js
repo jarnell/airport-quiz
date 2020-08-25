@@ -11,10 +11,13 @@ const Intro = ({ onStart }) => {
 
   return (
     <div>
-      <h1 className={styles.header}>Flygplats-quiz</h1>
+      <h1 className={styles.header}>Svenskt flygplats-quiz</h1>
       <h3 className={styles.intro}>
-        Välj vilka kategorier du vill inkludera. Femtio flygplatser slumpas fram
-        och du ska ange ICAO-kod för dom.
+        Välj vilka kategorier du vill inkludera. Max femtio flygplatser slumpas
+        fram och deras ICAO-koder kommer att efterfrågas. Lycka till!{' '}
+        <span role="img" aria-label="Fist bump">
+          👊
+        </span>
       </h3>
 
       <div className={styles.categories}>

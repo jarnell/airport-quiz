@@ -1,9 +1,15 @@
+@import 'src/styles/breakpoints';
+
 .container {
 }
 
 .header {
   font-size: 40px;
-  margin: 40px 0 0;
+  margin: 0;
+
+  @media (min-width: $tablet) {
+    margin-top: 40px;
+  }
 }
 
 .intro {
