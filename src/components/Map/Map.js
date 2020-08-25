@@ -10,14 +10,15 @@ const Map = ({ marker }) => {
     <GoogleMapReact
       bootstrapURLKeys={{ key: 'AIzaSyBZBTZH9vehg98i0n6WmA3yeWL7nLk_Pfk' }}
       defaultCenter={{
-        lat: 62.7,
+        lat: 62,
         lng: 17.5,
       }}
-      defaultZoom={4.9}
+      defaultZoom={5}
       options={{
         disableDefaultUI: true,
         draggable: false,
       }}
+      center={marker && { lat: marker.lat, lng: marker.lng }}
     >
       {marker && <Marker lat={marker.lat} lng={marker.lng} />}
     </GoogleMapReact>
