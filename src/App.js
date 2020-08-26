@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Map, Intro, ICAOInput, Checkmark, Cross } from './components';
 import airports from './airports.json';
 import sampleSize from './utils/sampleSize';
-import dmsToDecimal from './utils/dmsToDecimal';
 
 import styles from './App.module.scss';
 
@@ -25,8 +24,21 @@ function App() {
       ...(categories.heli
         ? Object.values(airports).filter((airport) => airport.type === 'H')
         : []),
-      ...(categories.other
-        ? Object.values(airports).filter((airport) => !airport.type)
+      ...(categories.south
+        ? Object.values(airports).filter(
+            (airport) => !airport.type && airport.lat <= 57.65
+          )
+        : []),
+      ...(categories.middle
+        ? Object.values(airports).filter(
+            (airport) =>
+              !airport.type && airport.lat > 57.65 && airport.lat < 60
+          )
+        : []),
+      ...(categories.north
+        ? Object.values(airports).filter(
+            (airport) => !airport.type && airport.lat >= 60
+          )
         : []),
     ];
 
@@ -92,7 +104,10 @@ function App() {
       <div className={styles.map}>
         <Map
           marker={
-            questions[current] && dmsToDecimal(questions[current].coordinates)
+            questions[current] && {
+              lat: questions[current].lat,
+              lng: questions[current].lng,
+            }
           }
         />
       </div>

@@ -6,7 +6,9 @@ const Intro = ({ onStart }) => {
   const [categories, setCategories] = useState({
     major: true,
     heli: true,
-    other: true,
+    south: true,
+    middle: true,
+    north: true,
   });
 
   return (
@@ -38,11 +40,27 @@ const Intro = ({ onStart }) => {
           }
         />
         <Category
-          name="Övriga fält"
-          count={92}
-          selected={categories.other}
+          name="Småfält södra"
+          count={21}
+          selected={categories.south}
           onClick={() =>
-            setCategories({ ...categories, other: !categories.other })
+            setCategories({ ...categories, south: !categories.south })
+          }
+        />
+        <Category
+          name="Småfält mellersta"
+          count={36}
+          selected={categories.middle}
+          onClick={() =>
+            setCategories({ ...categories, middle: !categories.middle })
+          }
+        />
+        <Category
+          name="Småfält norra"
+          count={35}
+          selected={categories.north}
+          onClick={() =>
+            setCategories({ ...categories, north: !categories.north })
           }
         />
       </div>
@@ -51,7 +69,13 @@ const Intro = ({ onStart }) => {
         onClick={() => {
           onStart(categories);
         }}
-        disabled={!categories.major && !categories.heli && !categories.other}
+        disabled={
+          !categories.major &&
+          !categories.heli &&
+          !categories.south &&
+          !categories.middle &&
+          !categories.north
+        }
       >
         Starta quizet
       </StartButton>

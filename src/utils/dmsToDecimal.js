@@ -12,8 +12,8 @@ const dmsToDecimal = (dms) => {
     parseInt(dms.slice(13, 15)) / 3600;
 
   return {
-    lat,
-    lng,
+    lat: Math.round(lat * 100000) / 100000,
+    lng: Math.round(lng * 100000) / 100000,
   };
 };
 
