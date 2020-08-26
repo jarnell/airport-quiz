@@ -7,7 +7,7 @@
   font-size: 40px;
   margin: 0;
 
-  @media (min-width: $tablet) {
+  @media (min-width: $tablet-ls) {
     margin-top: 40px;
   }
 }
@@ -33,6 +33,7 @@
   font-size: 14px;
   font-weight: 700;
   margin: 5px 10px 5px 0;
+  white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   transition: box-shadow 150ms;
