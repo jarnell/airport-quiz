@@ -8,7 +8,7 @@ import styles from './Map.module.scss';
 const Map = ({ marker }) => {
   return (
     <GoogleMapReact
-      bootstrapURLKeys={{ key: 'AIzaSyBZBTZH9vehg98i0n6WmA3yeWL7nLk_Pfk' }}
+      bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }}
       defaultCenter={{
         lat: 62,
         lng: 17.5,
